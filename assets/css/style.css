@@ -93,13 +93,22 @@ body{
     margin-left: 5%;
     background-origin: none;
 }
-form {
-    border-bottom: solid black 1px;
-    /* border-top: solid black 1px; */
-}
+
 .intro {
     display: flex;
     margin-top: 50px;
+}
+
+.mess {
+    display: flex;
+    margin-top: 10px;
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+}
+
+.mapouter {
+    margin-top: 30px;
+    margin-left: 400px;
 }
 
 .work {
@@ -114,7 +123,7 @@ form {
 
 .intro>div {
     margin-top: 10px;
-    border-bottom: solid black 1px;
+    /* border-bottom: solid black 1px; */
 }
 
 #ab {
