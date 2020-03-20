@@ -1,0 +1,254 @@
+h1 {
+    text-align: center;
+}
+.main {
+    height: 600px;
+    width: 1200px;
+    border: white solid 3px;
+    /* display: inline; */
+    margin: auto ;
+}
+
+.ger {
+    float: left;
+}
+.ger1{
+    height: 66px;
+    width: 300px;
+    background-color: black;
+}
+.ger2 {
+    height: 66px;
+    width: 300px;
+    background-color: rgb(221,00,00);
+}
+.ger3 {
+    width: 300px;
+    height: 66px;
+    background-color: rgb(255,206,00);
+}
+
+.mali {
+    display: inline;
+    /* float: right; */
+}
+.mal1 {
+    width: 100px;
+    height: 200px;
+    background-color: #14b53a;
+    float: left;
+}
+.mal2 {
+    width: 100px;
+    height: 200px;
+    background-color: #fcd116;
+    float: left;
+}.mal3 {
+    width: 100px;
+    height: 200px;
+    background-color: #ce1126;
+    float: left;
+}
+
+.nig {
+    display: inline;
+    /* float: left; */
+}
+.nig1 {
+    width: 100px;
+    height: 200px;
+    background-color: rgb(00,87,53);
+    float: left;
+}
+.nig2 {
+    width: 100px;
+    height: 200px;
+    background-color: white;
+    float: left;
+}
+.nig3 {
+    width: 100px;
+    height: 200px;
+    background-color: rgb(00,87,53);
+    float: left;
+}
+.eth {
+    float: left;
+}
+.eth1 {
+    height: 66px;
+    width: 300px;
+    background-color: rgb(00,150,00);
+}
+.eth2 {
+    height: 66px;
+    width: 300px;
+    background-color: rgb(255, 239, 20);
+}
+.eth3 {
+    height: 66px;
+    width: 300px;
+    background-color: rgb(255, 0, 0);
+}
+
+.neth {
+    /* display: inline; */
+    float: left;
+}
+.net1 {
+    height: 66px;
+    width: 300px;
+    background-color: #ae1c28;
+}
+.net2 {
+    height: 66px;
+    width: 300px;
+    background-color: white;
+}
+.net3 {
+    height: 66px;
+    width: 300px;
+    background-color: #21468b;
+}
+
+.ital {
+    display: inline;
+}
+.ita1 {
+    width: 100px;
+    height: 200px;
+    background-color: #008c45;
+    float: left;
+}
+.ita2 {
+    width: 100px;
+    height: 200px;
+    background-color: #f4f5f0;
+    float: left;
+}
+.ita3 {
+    width: 100px;
+    height: 200px;
+    background-color: #cd212a;
+    float: left;
+}
+
+.belg {
+    display: inline;
+}
+.bel1 {
+    width: 100px;
+    height: 200px;
+    background-color: black;
+    float: left;
+}
+.bel2 {
+    width: 100px;
+    height: 200px;
+    background-color: #fdda24;
+    float: left;
+}
+.bel3 {
+    width: 100px;
+    height: 200px;
+    background-color: #ef3340;
+    float: left;
+}
+
+.madag {
+    display: inline;
+}
+.mad1 {
+    width: 100px;
+    height: 200px;
+    background-color: white;
+    float: left;
+}
+.mad2 {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(249,66,58);
+    float: left;
+}
+.mad3 {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(0,132,61);
+    float: left;
+}
+
+.angola {
+    float: left;
+}
+.ang1 {
+    height: 100px;
+    width: 300px;
+    background-color: rgb(200,16,46);
+}
+.ang2 {
+    height: 100px;
+    width: 300px;
+    background-color: black;
+}
+
+.irelan {
+    display: inline;
+}
+.ire1 {
+    height: 200px;
+    width: 75px;
+    background-color: rgb(22,155,98);
+    float: left;
+}
+.ire2 {
+    height: 200px;
+    width: 150px;
+    background-color: white;
+    float: left;
+}
+.ire3 {
+    height: 200px;
+    width: 75px;
+    background-color: rgb(255,136,62);
+    float: left;
+}
+
+.russia {
+    float: left;
+}
+.rus1 {
+    width: 300px;
+    height: 67px;
+    background-color: white;
+}
+.rus2 {
+    width: 300px;
+    height: 67px;
+    background-color: #0039a6;
+}
+.rus3 {
+    width: 300px;
+    height: 67px;
+    background-color: #d52b1e;
+}
+.benin {
+    display: inline;
+}
+.beni1 {
+    width: 100px;
+    height: 200px;
+    background-color: rgb(00,87,51);
+    float: left;
+}
+.beni2 {
+    width: 200px;
+    height: 100px;
+    background-color: #fcd116;
+    float: left;
+}
+.beni3 {
+    width: 200px;
+    height: 100px;
+    background-color: #e8112d;
+    float: left;
+}

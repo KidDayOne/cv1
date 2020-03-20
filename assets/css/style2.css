@@ -1,0 +1,16 @@
+body{
+    background-color: lightslategray;
+
+}
+header{
+    text-transform: uppercase;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: inherit;
+}
+.pic{
+    width: 30%;
+    float: left;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
