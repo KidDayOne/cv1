@@ -8,7 +8,9 @@ header {
     margin-bottom: 25px;
 }
 #content {
+    display: flex;
     margin-top: 55px;
+    margin-left: 20px;
 }
 
 .cont {
@@ -17,11 +19,16 @@ header {
     margin-left: 20%;
 }
 
+section>.que>p>ul>li {
+    margin-left: 10%;
+}
+
 .que {
-    width: 80%;
+    width: 75%;
     font-size: 15px;
     text-align: justify;
     line-height: 35px;
+    /* margin-left: 10%; */
 }
 
 section {

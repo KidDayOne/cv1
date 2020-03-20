@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <!-- Navigation -->
+    
     <header>
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -18,50 +18,16 @@
             <li><a href="myworks.html">My Works</a></li>
         </ul>
     </header>
-    <!-- lets get down to business -->
+
     <div id="content">
-        <!-- <section>
-            <p class="title"> My First Post</p>
-            <article class="que">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa deserunt commodi temporibus, modi hic possimus in tempora obcaecati vitae dignissimos esse at debitis dolorum.
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A, officia! commodi temporibus, modi hic possimus in tempora obcaecati vitae dignissimos esse at debitis dolorum.                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa deserunt commodi temporibus, modi hic possimus in tempora obcaecati vitae dignissimos esse at debitis dolorum.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa deserunt commodi temporibus, modi hic possimus in tempora obcaecati vitae dignissimos esse at debitis dolorum.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa deserunt commodi temporibus, modi hic possimus in tempora obcaecati vitae dignissimos esse at debitis dolorum.
-            </article>
-            <p class="date">March 21, 2020 : 8:00PM</p>
-        </section>
-
-        <section>
-            <p class="title"> My Second Post</p>
-            <article class="que">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa deserunt commodi temporibus, modi hic possimus in tempora obcaecati vitae dignissimos esse at debitis dolorum.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa deserunt commodi temporibus, modi hic possimus in tempora obcaecati vitae dignissimos esse at debitis dolorum.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa deserunt commodi temporibus, modi hic possimus in tempora obcaecati vitae dignissimos esse at debitis dolorum.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa deserunt commodi temporibus, modi hic possimus in tempora obcaecati vitae dignissimos esse at debitis dolorum.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa deserunt commodi temporibus, modi hic possimus in tempora obcaecati vitae dignissimos esse at debitis dolorum.
-            </article>
-            <p class="date">March 22, 2020 : 1:09PM</p>
-        </section>
-
-        <section>
-            <p class="title"> My Third Post</p>
-            <article class="que">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa deserunt commodi temporibus, modi hic possimus in tempora obcaecati vitae dignissimos esse at debitis dolorum.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa deserunt commodi temporibus, modi hic possimus in tempora obcaecati vitae dignissimos esse at debitis dolorum.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa deserunt commodi temporibus, modi hic possimus in tempora obcaecati vitae dignissimos esse at debitis dolorum.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa deserunt commodi temporibus, modi hic possimus in tempora obcaecati vitae dignissimos esse at debitis dolorum.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa deserunt commodi temporibus, modi hic possimus in tempora obcaecati vitae dignissimos esse at debitis dolorum.
-            </article>
-            <p class="date">March 23, 2020 : 8:15 PM</p>
-        </section> -->
-
         <section>
             <p class="title">Relative Size</p>
             <article class="que">
                 I believe using relative styling is preferable to other styling methods. The "%","em" and "rem" units are useful in making a 
                 website more responsive because making the size relative will allow any type of browser to render the elements in the same way.
+                <div></div>
                 For example let a given elements' size be set to "absolute", then when the page is zoomed in/out or minimized/maximized, the
-                element will be either be distorted or bent out of shape. However, by using the relative units, the elements will grow and 
+                element will either be distorted or bent out of shape. However, by using the relative units, the elements will grow and 
                 shrink according to their parent containers. 
             </article>
             <p class="date">March 20, 2020 : 2:31PM</p>
@@ -70,18 +36,53 @@
         <section>
             <p class="title">Width</p>
             <article class="que">
-                As it is known, the width property provides the width of a given elements content area. The default value-meaning if not changed
-                by the developer is 16px. 
+                As it is known, the width property provides the width of a given element's content area. The default value-meaning if not changed
+                by the developer-is 16px. 
             </article>
             <p class="date"></p>
         </section>
 
-        <section>
+        <section> 
             <p class="title">CSS 3</p>
             <article class="que">
+                CSS3 is the latest version of the Cascading Style Sheet language. It brings a lot of new features and additions to help developers to create 
+                great styling. Some major enhancements that have been included are:
+                <p>
+                    <ul>
+                        Media queries are perhaps one of the most revolutionary modules, responsible for the responsive design that has become standard in today’s 
+                        web world. They can be used to target specific media for the "style", "link", "source", and other HTML elements with the media= attribute.
+                        They also apply styles with the "CSS @media" and "@import at-rules"
+                    </ul>
+                </p>
 
+                <p>
+                    <ul>
+                        CSS3 brings with it new ways of describing color. The color keyword list has been extended to include 147 colors and other options: 
+                        <li>RGBA : the same as RGB only with a 4th value; alpha for the transparency level.</li>
+                        <li>HSL and HSLA : HSL stands for hue, saturation and lightness. Unlike RGB, this can tweak either just the saturation or the light
+                            while keeping the same base hue...the "a" is used the same way as it was used in rgba.</li>
+                    </ul>
+                </p>
+
+                <p>
+                    <ul>
+                        In CSS3, there is no need to include an element for every background image. It allows us to add more than one image to any image. The
+                        structure is as follows: 
+                         <li>"background-image: url(firstImage.jpg), url(secondImage.jpg)...;"</li>
+                    </ul>
+                </p>
+
+                <p>
+                    <ul>
+                        W3C added the syntax for generating gradients too. The Gradient datatype is a special type of "image" that consists of a progressive
+                        transition between two or more colors. There are Linear Gradients and Radial Gradients.
+                        <li>Linear Gradients : in this type, colors proceed along a straight axis. </li>
+                        <li>Radial Gradients : are circular or elliptical gradients, colors blend out from a starting point in all directions.</li>    
+                    </ul>
+                </p>
+                You can get a bunch of other new features with their explanations <a href="http://www.instantshift.com/2019/05/01/new-css-techniques-2019/" target="_blank">here</a>. 
             </article>
-            <p class="date"></p>
+            <p class="date"> March 20, 2020 : 7:56PM</p>
         </section>
     </div>
 </body>
