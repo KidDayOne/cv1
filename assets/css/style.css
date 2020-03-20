@@ -9,8 +9,13 @@ header {
 }
 #content {
     display: flex;
+    flex-wrap: wrap;
     margin-top: 55px;
     margin-left: 20px;
+}
+
+#content>section {
+    flex: 200px;
 }
 
 .cont {
@@ -90,12 +95,28 @@ body{
 }
 form {
     border-bottom: solid black 1px;
-    border-top: solid black 1px;
+    /* border-top: solid black 1px; */
 }
 .intro {
+    display: flex;
     margin-top: 50px;
-    margin-bottom: 215px;
 }
+
+.work {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.work>div {
+    flex: 200px;
+}
+
+.intro>div {
+    margin-top: 10px;
+    border-bottom: solid black 1px;
+}
+
 #ab {
     text-align: center;
 }
